@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<!-- <div class="header"><p>Who I am ?</p></div> -->
+  
+
+    <i class="fa fa-angle-double-down" id="icons"></i>
+
+    <div class="topic">
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </div>
+
+    <div id="about">
+        <h3>About Me</h3>
+        <img src="myimage.png">
+        <h2 >Hi,<br>
+        I am <span id="name"></span>
+     </h2>
+     <p>I am a sophomore at National Institute of Technology Durgapur.<br>
+     I've been exploring frontend as well as backend since last 1 year.<br>
+     I love to help and contribute to the new projects, I am also an open source contributor.
+
+     </p>
+    </div>
+    <div id="education">
+        <h3>Education</h3>
+        <div class="edu">
+            <h4>B-Tech</h4>
+            <h5>National Institute of Technology Durgapur</h5>
+            <p> Branch : Computer Science and Engineering.
+                <br>
+                Year : 2<sup>nd</sup> .
+                <br>
+                Current CGPA : 9.16 .
+
+            </p>
+        </div>
+        <div class="edu">
+            <h4>12<sup>th</sup></h4>
+            <h5>Green Valley Public School.</h5>
+            <p> 
+                percentage : 91.6% .
+            </p>
+                
+        </div>
+        <div class="edu">
+            <h4>10<sup>th</sup></h4>
+            <h5>Holy Wisdom School.</h5>
+            <p> 
+                CGPA : 9.2 .
+            </p>
+        </div>
+    </div>
+    <div id="skill"> 
+        <h3>Skills</h3>
+
+        <div id="pmglng">
+            <h4>Programming language : </h4><br>
+            <img src="./skills_img/c.png">
+            <img src="./skills_img/c++.png">
+            
+        </div>
+        <div id="webskl">
+            <h4>Web Skills : </h4><br>
+            <img src="./skills_img/html.png">
+            <img src="./skills_img/css.png">
+            <img src="./skills_img/javascript.png">
+            <img src="./skills_img/nodejs.jpg">
+            <img src="./skills_img/mongo.png">
+            <img src="./skills_img/react.png">
+            
+        </div>
+
+        <div id="tool">
+            <h4>Tools :</h4>
+            <br>
+            <img src="./skills_img/git.png">
+            <img src="./skills_img/github.png">
+        </div>
+        </div>
+    <div id="project">
+        <h3>Projects</h3>
+        <div class="prj"> 
+            <h4>Add and Search Bus </h4>
+            <p>In this project you can Add the bus by adding the details
+                <br>
+               The details of bus is stored in localstorage.
+               <br>
+               One can even search the bus by providing source and destination value.
+            </p>
+            <a href="https://vipin24bohra.github.io/LetsUpgrade-Javascript/day5-6/project%202/form.html" target="_blank">See live</a>
+        </div>
+        <div class="prj"> <h4>online e-commerce </h4>
+            <p>In this porject one can Add product in the cart.
+                <br>
+                one can even add the product.
+               <br>
+               one can filter the product by provinding range of price.
+              <br> 
+              one can serch product by the name.
+            </p>
+            <a href="https://vipin24bohra.github.io/LetsUpgrade-Javascript/day7-8/shop.html" target="_blank">See live</a></div>
+
+    </div>
+    <div id="contact">
+        <h3>Contact me </h3>
+ 
+<form id="my-form" action="https://formspree.io/f/xjvjvkjo" method="POST">
+    <label>Email:</label><br>
+    <input type="email" name="email" /><br>
+    <label>Message:</label><br>
+    <textarea name="message"></textarea><br>
+    <button id="my-form-button">Submit</button>
+    <p id="my-form-status"></p>
+  </form>
+    </div>
+    <div id="slider">
+        <h1>VIPIN BOHRA</h1>
+        <h2>Full Stack Developer</h2>
+        <i class="fa fa-angle-up" onclick="translate_page()"></i>
+    </div>
+    <footer>
+        <span>Copyright © 2021 Vipin Bohra</span>
+          <div class="sideBar">
+
+   <a href="https://www.facebook.com/vimal.bohra.129/" target="_blank"><i class="fa fa-facebook-square" id="iconf" ></i></a> 
+   <a href="https://www.instagram.com/vipin2405bohra/" target="_blank"><i class="fa fa-instagram "id="iconi" ></i></a> 
+   <a href="https://www.linkedin.com/in/vipin-bohra-502a95209" target="_blank"><i class="fa fa-linkedin-square "  id="iconl"></i></i></a> 
+   <a href="https://github.com/VIPIN24BOHRA" target="_blank"><i class="	fa fa-github" id="icong" ></i></a> 
+   
+    </div>
+    </footer>
+</body>
+<script src="portfolio.js"></script>
+</html>
